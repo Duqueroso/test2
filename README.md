@@ -30,10 +30,10 @@ It's clean, responsive and modern web presentation designed to make a strong fir
 - index.html
 
 ## Personal Information
-Name: Brayan Duque Trujillo
-Clan: Gosling
-email: duquetb101@gmail.com
-CC: 1000207095
+- Name: Brayan Duque Trujillo
+- Clan: Gosling
+- Email: duquetb101@gmail.com
+- CC: 1000207095
 
 ___
 
