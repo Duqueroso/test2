@@ -19,3 +19,21 @@ It's clean, responsive and modern web presentation designed to make a strong fir
 ## 💻 Demo 
 - https://duqueroso.github.io/test2/index.html
 
+## Model
+- images:
+    - All images
+- pages:
+    - All pages
+- style:
+    - All styles
+- README.md
+- index.html
+
+## Personal Information
+Name: Brayan Duque Trujillo
+Clan: Gosling
+email: duquetb101@gmail.com
+CC: 1000207095
+
+___
+
