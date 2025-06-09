@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2 {
+    font-family: "Tourney", sans-serif;
+}
+
+p, a, span {
+    font-family: "Modern Antiqua", serif;
+}
+
+:root {
+    --primary-color: #cbd1d6;
+    --secundary-color: #262626;
+    --colorrr: #007bff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+#head {
+    background-color: var(--secundary-color);
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+#head h1 {
+    color: var(--primary-color);
+    padding: 0 2rem;
+}
+
+nav {
+    padding: 0 2rem;
+    
+}
+
+a {
+    color: var(--primary-color);
+    position: relative;
+    text-decoration: none;
+    padding: 0 2rem;
+    font-size: large;
+}
+  
+a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--colorrr);
+    bottom: -0.1rem;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 4rem;
+    padding-top: 3rem;
+}
+
+#main .photo {
+    margin-top: 2rem;
+    max-width: 30rem;
+    max-height: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 20px var(--primary-color);
+    background-color: aliceblue;
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.05) rotate(5deg); /* Efect hover img */
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--primary-color);
+    padding-bottom: 15rem;
+}
+
+#skills {
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills h2 {
+    padding-bottom: 4rem;
+}
+
+.icons {
+    display: flex;
+    padding-bottom: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
+#main .icon {
+    width: 4rem;
+    text-align: center;
+    background-color: transparent;
+    transition: transform 0.5s ease;
+    filter: drop-shadow(0 0 20px var(--primary-color));
+}
+
+.icon:hover {
+    transform: scale(1.25) rotate(5deg); /* Efecto hover interesante */
+}
+
+footer {
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--secundary-color);
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* Responsive Tablet */
+@media (min-width:768px) and (max-width: 1024px) {
+   
+    p {
+        font-size: 2rem;
+    }
+
+    #head {
+        padding-top: 2rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+    
+    footer {
+        margin-top: 2rem;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        padding-top: 6rem;
+    }
+
+    .info {
+        padding: 0;
+    }
+
+    #aboutme {
+        padding-bottom: 2rem;
+        text-align: center;
+        width: 80vw;
+    }
+
+    .icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+}
+
+/* Responsive Mobile */
+@media (min-width: 480px) and (max-width: 768px), (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    #head {
+        padding-top: 2rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+    
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 8rem;
+    }
+
+    .info {
+        padding: 0;
+    }
+
+    #aboutme {
+        padding-bottom: 2rem;
+        text-align: center;
+        width: 80vw;
+    }
+
+    .icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+
+}
