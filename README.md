@@ -4,12 +4,12 @@ Initially this repository was created to present the performance test of module 
 
 ## Here you will find the following order:
  - test2:
-  - images:
+   - images:
       - all the images that were used
-  - pages:
+   - pages:
       - all the pages that were used and redirect
-  - styles:
+   - styles:
       - all the style that using in the pages
-  - README.md
-  - index.html
+   - README.md
+   - index.html
 
