@@ -1,15 +1,21 @@
-# test2
+# Personal Portfolio Website
 
 Initially this repository was created to present the performance test of module 2 in Riwi.
 
-## Here you will find the following order:
- - test2:
-   - images:
-      - all the images that were used
-   - pages:
-      - all the pages that were used and redirect
-   - styles:
-      - all the style that using in the pages
-   - README.md
-   - index.html
+THis repository contains the source code for my personal portfolio website, built to showcase my work, skills, and contact information.
+It's clean, responsive and modern web presentation designed to make a strong first impression.
+
+## 🚀 Features
+- About me section
+- Projects and portfolio
+- Contact form
+- Responsive design for desktop, tablet and mobile
+- Customizable styling and content
+
+## 🔨 Built with
+- HTML 5
+- CSS
+
+## 💻 Demo 
+- https://duqueroso.github.io/test2/index.html
 
